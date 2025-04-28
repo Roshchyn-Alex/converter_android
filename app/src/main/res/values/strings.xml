@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW_Converter</string>
+    <string name="converter">Конвертер</string>
+    <string name="user_input">Введите число</string>
+    <string name="text_view_ton">Количество тонн:</string>
+    <string name="text_view_kg">Количество кг:</string>
+    <string name="text_view_gr">Количество грамм:</string>
+</resources>

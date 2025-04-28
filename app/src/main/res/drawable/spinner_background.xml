@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+        <!--    цвет фона для edit text-->
+        <solid android:color="@color/spinner_background" />
+        <!--    обводка граница-->
+        <stroke android:width="2dp"
+                android:color="#f0970a" />
+        <!--    скругление углов-->
+        <corners android:radius="10dp" />
+        </shape>
+    </item>
+<!--    стрелка справа-->
+    <item android:gravity="end|center_vertical"
+          android:right="8dp"
+          android:width="30dp"
+          android:height="30dp"
+          android:drawable="@drawable/ic_down_icon" />
+</layer-list>
